@@ -1,0 +1,17 @@
+//summation of i from 1 to n=n(n+1)/2=1+2+3+4+..+(n-1)+n
+#include <iostream>
+using namespace std;
+int main()
+{
+int n, sum = 0;
+cout<<"Enter no::";
+cin >> n;
+for (int i = 1; i <= n; ++i) {
+    sum += i;
+}
+// or sum = n*(n+1)/2;
+cout<<"Sum::";
+cout << sum;
+return 0;
+}
+ 
