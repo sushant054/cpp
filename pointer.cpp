@@ -1,29 +1,17 @@
-// C++ program to demonstrate use of pointers in C++;
-
 #include <iostream>
+#include <string>
 using namespace std;
+int main() {
+  string food = "Sushant";  // A string variable
+  string* ptr = &food;  // A pointer variable that stores the address of name
 
-int main()
-{
-	int x = 10; // variable declared
-	int* myptr; // pointer variable
+  // Output the value of name
+  cout << food << "\n";
 
-	// storing address of x in pointer myptr
-	myptr = &x;
+  // Output the memory address of name
+  cout << &food << "\n";
 
-	cout << "Value of x is: ";
-	cout << x << endl;
-
-	// print the address stored in myptr pointer variable
-	cout << "Address stored in myptr is: ";
-	cout << myptr << endl;
-
-	// printing value of x using pointer myptr
-	cout << "Value of x using *myptr is: ";
-	cout << *myptr << endl;
-
-	return 0;
+  // Output the memory address of name with the pointer
+  cout << ptr << "\n";
+  return 0;
 }
-
-
-
