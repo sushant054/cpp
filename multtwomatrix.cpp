@@ -56,7 +56,7 @@ int main()
                 mult[i][j] += a[i][k] * b[k][j];
             }
 
-    // Displaying the multiplication of two matrix.
+    // displaying the multiplication of two matrix.
     cout << endl << "Output Matrix: " << endl;
     for(i = 0; i < r1; ++i)
     for(j = 0; j < c2; ++j)
@@ -68,3 +68,5 @@ int main()
 
     return 0;
 }
+
+
