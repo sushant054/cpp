@@ -9,7 +9,7 @@ int main()
     cout << "Enter three numbers: ";
     cin >> n1 >> n2 >> n3;
 
-    // check if n1 is the largest number
+    // check if n1 is the largest number...
     if(n1 >= n2 && n1 >= n3)
         cout << "Largest number: " << n1;
 
