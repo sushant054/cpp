@@ -9,4 +9,5 @@ int main()
     std::cout << std::endl;
     return 0;
 }
+//this will print string in reverse order...
 //output:-!dlroW ,olleH
