@@ -1,4 +1,4 @@
-// convert binary to decimal
+// convert binary number to decimal number
 
 #include <iostream>
 #include <cmath>
