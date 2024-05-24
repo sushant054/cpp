@@ -16,7 +16,7 @@ int main() {
   return 0;
 }
 
-// function definition
+// function definition for conversion..
 int convert(long long n) {
   int dec = 0, i = 0, rem;
 
