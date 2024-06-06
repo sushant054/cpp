@@ -23,7 +23,6 @@ int main() {
     if(arr[0] < arr[i])
       arr[0] = arr[i];
   }
-
   cout << endl << "Largest element = " << arr[0];
 
   return 0;
