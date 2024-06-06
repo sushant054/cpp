@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//multiplication 
 int main() {
     int n;
     cout << "Enter a positive integer: ";
