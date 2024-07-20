@@ -10,10 +10,9 @@ int main()
 
     cout << "Enter string s2: ";
     getline (cin, s2);
-
+//concatenate string
     result = s1 + s2;
 
     cout << "Resultant String = "<< result;
-//concatenate string...
     return 0;
 }
