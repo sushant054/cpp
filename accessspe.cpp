@@ -11,6 +11,6 @@ class MyClass {
 int main() {
   MyClass myObj;
   myObj.x = 25;  // Allowed (x is public)
-  myObj.y = 50;  // Not allowed (y is private)
+  myObj.y = 50;  // Not allowed
   return 0;
 }
