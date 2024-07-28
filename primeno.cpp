@@ -5,7 +5,7 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
     int div = 2;
-    bool isPrime = true; // Assume the number is prime initially
+    bool isPrime = true; 
     while (div < n) {
          if (n % div == 0) {
             // Print "NOT PRIME"
