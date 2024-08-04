@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define N 4
-
 // This function adds A[][] and B[][],
 // and stores the result in C[][]
 void add(int A[][N], int B[][N], int C[][N])
@@ -13,7 +12,7 @@ void add(int A[][N], int B[][N], int C[][N])
 			C[i][j] = A[i][j] + B[i][j];
 }
 
-// Driver code
+// Driver code..
 int main()
 {
 	int A[N][N] = { { 1, 1, 1, 1 },
