@@ -1,4 +1,4 @@
-// C++ program for addition of two matrices
+// C++ program for addition of 2 matrices
 #include <bits/stdc++.h>
 using namespace std;
 #define N 4
