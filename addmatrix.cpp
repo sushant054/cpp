@@ -12,7 +12,7 @@ void add(int A[][N], int B[][N], int C[][N])
 			C[i][j] = A[i][j] + B[i][j];
 }
 
-// Driver code..
+// Driver code....
 int main()
 {
 	int A[N][N] = { { 1, 1, 1, 1 },
